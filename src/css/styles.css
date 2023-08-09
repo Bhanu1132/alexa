@@ -184,6 +184,7 @@ header {
     font-weight: bold;
     text-align: left;
     margin-top: 12px;
+    text-align: center;
 }
 
 .section4row2datadefi {
@@ -329,6 +330,9 @@ footer {
         background-color: #636363 !important;
     }
 
+    .section4row2title{
+        text-align:left;
+    }
     .section1 {
         padding: unset;
         padding: 15px;
