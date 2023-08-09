@@ -1,0 +1,344 @@
+header {
+    padding: 5px 50px;
+}
+
+.navitemsul li {
+    margin-right: 25px;
+}
+
+.navbar-brand {
+    font-size: 28px !important;
+    color: rgb(13, 186, 255) !important;
+}
+
+.section1 {
+    padding: 60px 50px 10px 50px;
+}
+
+.titlediv {
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(0, 209, 216);
+    margin-bottom: 14px;
+}
+
+.section1subtitlemainspan {
+    background-color: gray;
+    padding: 6px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.section1spanPinksale {
+    text-decoration: none !important;
+    color: white;
+
+}
+
+
+.titledefinition {
+    margin-bottom: 20px;
+    line-height: 28px;
+    width: 60%;
+    word-break: keep-all;
+
+}
+
+.whitepaperbtn {
+    padding: 10px 20px !important;
+    background-color: rgb(0, 209, 216) !important;
+    color: black !important;
+    border-radius: 10px !important;
+    margin-bottom: 40px;
+
+}
+
+.section1robotimage {
+    width: 100%;
+}
+
+.section1row2 {
+    padding: 120px 60px;
+}
+
+.eachinnerrowsection1 {
+    /* margin-bottom: 25px; */
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.eachinnerrowsection1:hover {
+    background-color: rgb(158, 158, 158);
+}
+
+
+.section1row2dataterm {
+    font-size: 20px;
+}
+
+.section2 {
+    padding: 0px 50px 40px 50px;
+}
+
+.section2titlediv {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.section2datadefiniton {
+    line-height: 30px;
+    word-break: keep-all;
+}
+
+.section2image {
+    width: 90%;
+
+}
+
+.section3 {
+    padding: 100px 60px 60px;
+}
+
+.section3image {
+    width: 100%;
+}
+
+.section3title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.section3infodiv {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.section3btn {
+    margin-bottom: 80px;
+}
+
+.section4 {
+    padding: 40px 60px 60px;
+}
+
+.section4title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section4image {
+    width: 100%;
+}
+
+.section4row2title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.section4row2datadefi {
+    line-height: 30px;
+    width: 80%;
+}
+
+.section4row2 {
+    padding: 40px 60px 40px unset;
+    margin-top: 60px !important;
+}
+
+.section5 {
+    padding: 50px 60px;
+}
+
+.section5eachcol {
+    background-color: rgb(66, 83, 78);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+}
+
+.section5dateterm {
+    margin-bottom: 22px;
+}
+
+.section5datadefi {
+    line-height: 28px;
+}
+
+.section6 {
+    padding: 40px 60px;
+}
+
+.section6title {
+    font-size: 45px;
+    font-weight: bold;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.section6datadefi {
+    width: 60%;
+    line-height: 26px;
+}
+
+.section6btn {
+    margin-left: 150px;
+    margin-top: 84px;
+}
+
+.section6row {
+    background-color: rgb(165, 165, 165);
+    padding: 30px 50px;
+}
+
+footer {
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+.footermainspan {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    /* padding-left: 80px; */
+}
+
+/* .footerdataterm{
+    padding-left: 80px;
+} */
+.footerul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footerul li:first-child {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footerbottumul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.footerbottumul {
+    text-align: right;
+}
+
+
+.footerbottempart {
+    border-top: 1px solid #636363 !important;
+    padding: 25px 10px;
+}
+
+@media screen and (min-width: 390px) {
+    .titledefinition {
+        width: 100%;
+    }
+
+    .whitepaperbtn {
+        padding: 10px 50px !important;
+    }
+
+    .section1row2 {
+        padding-top: 50px;
+        padding-right: unset;
+        padding-left: unset;
+        width: 100%;
+        padding-bottom: unset;
+    }
+
+    .section2image {
+        width: 100%;
+    }
+
+    .section2titlediv {
+        margin-top: 20px;
+    }
+
+    .section3title {
+        margin-top: unset;
+    }
+
+    .section3 {
+        padding-top: unset;
+    }
+
+    .section3btn {
+        padding-left: 14px !important;
+        padding-right: 14px !important;
+    }
+
+    .section3 {
+        padding-bottom: unset;
+    }
+
+    .section4row2title {
+        margin-top: unset;
+    }
+
+    .section5 {
+        padding-top: unset;
+    }
+
+    .section6title {
+        width: 100%;
+    }
+
+    .section6row {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .section6btn{
+        margin-left: unset;
+        margin-top: unset;
+        margin-top: 20px;
+    }
+    .section3 {
+        padding: unset;
+        padding: 20px;
+    }
+
+    .section4 {
+        padding: unset;
+        padding: 20px;
+    }
+
+    .section2 {
+        padding: unset;
+        padding: 20px;
+    }
+
+    .section1 {
+        padding: unset;
+        padding: 20px;
+    }
+
+    .section6 {
+        padding: unset;
+        padding: 20px;
+    }
+
+    footer{
+        padding: unset;
+        padding: 20px;
+    }
+
+    header{
+        padding: unset;
+        padding: 20px;
+    }
+}
