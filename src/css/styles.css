@@ -1,18 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: rgb(10, 17, 22) !important;
+    color: white !important;
+}
+
 header {
-    padding: 5px 50px;
+    padding: 5px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navitemsul li {
     margin-right: 25px;
 }
 
-.navbar-brand {
-    font-size: 28px !important;
-    color: rgb(13, 186, 255) !important;
+.navitemsul li a {
+    color: rgb(204, 204, 204);
 }
 
+.navitemsul li a:hover {
+    color: white;
+}
+
+
+
+.navbar-brand {
+    font-size: 40px !important;
+    color: rgb(13, 186, 255) !important;
+    font-weight: bold;
+}
+
+
+
 .section1 {
-    padding: 60px 50px 10px 50px;
+    padding: 40px 20px 40px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .titlediv {
@@ -20,6 +42,7 @@ header {
     font-weight: bold;
     color: rgb(0, 209, 216);
     margin-bottom: 14px;
+    margin-top: 60px;
 }
 
 .section1subtitlemainspan {
@@ -42,16 +65,21 @@ header {
     line-height: 28px;
     width: 60%;
     word-break: keep-all;
+    color: #bdbdbd;
 
 }
 
 .whitepaperbtn {
-    padding: 10px 20px !important;
+    padding: 10px 40px !important;
     background-color: rgb(0, 209, 216) !important;
     color: black !important;
     border-radius: 10px !important;
     margin-bottom: 40px;
+    border: none !important;
 
+}
+.section1row2datadefinition{
+    color: #bdbdbd;
 }
 
 .section1robotimage {
@@ -59,7 +87,7 @@ header {
 }
 
 .section1row2 {
-    padding: 120px 60px;
+    padding: 60px 60px;
 }
 
 .eachinnerrowsection1 {
@@ -69,8 +97,9 @@ header {
 }
 
 .eachinnerrowsection1:hover {
-    background-color: rgb(158, 158, 158);
+    background-color: rgba(60, 60, 60, 0.473);
 }
+
 
 
 .section1row2dataterm {
@@ -78,7 +107,8 @@ header {
 }
 
 .section2 {
-    padding: 0px 50px 40px 50px;
+    padding: 0px 20px 40px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section2titlediv {
@@ -91,6 +121,7 @@ header {
 .section2datadefiniton {
     line-height: 30px;
     word-break: keep-all;
+    color: #bdbdbd;
 }
 
 .section2image {
@@ -99,7 +130,8 @@ header {
 }
 
 .section3 {
-    padding: 100px 60px 60px;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section3image {
@@ -118,12 +150,23 @@ header {
     margin-bottom: 20px;
 }
 
+.section3infodiv span {
+    display: block;
+    color: #bdbdbd;
+}
+
+.section3smartspan1 {
+    word-break: break-all;
+
+}
+
 .section3btn {
     margin-bottom: 80px;
 }
 
 .section4 {
-    padding: 40px 60px 60px;
+    padding: 40px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section4title {
@@ -146,6 +189,7 @@ header {
 .section4row2datadefi {
     line-height: 30px;
     width: 80%;
+    color: #bdbdbd;
 }
 
 .section4row2 {
@@ -154,77 +198,102 @@ header {
 }
 
 .section5 {
-    padding: 50px 60px;
+    padding: 40px 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section5eachcol {
-    background-color: rgb(66, 83, 78);
+    background-color: #3b919345;
     margin-bottom: 20px;
     margin-right: 20px;
-    padding: 30px;
+    padding: 30px !important;
     border-radius: 12px;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.section5eachcol:hover {
+    background-color: #c4c4c445;
+
 }
 
 .section5dateterm {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
+
 
 .section5datadefi {
     line-height: 28px;
 }
 
 .section6 {
-    padding: 40px 60px;
+    padding: 40px 40px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section6row {
+    background-color: #c4c4c427 !important; 
 }
 
 .section6title {
     font-size: 45px;
     font-weight: bold;
-    width: 60%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+
 }
 
 .section6datadefi {
-    width: 60%;
-    line-height: 26px;
+    width: 80%;
+    line-height: 30px;
+    color: #bdbdbd;
 }
 
 .section6btn {
-    margin-left: 150px;
-    margin-top: 84px;
+    margin-left: 10px !important;
+    margin-top: 90px !important;
 }
 
 .section6row {
     background-color: rgb(165, 165, 165);
-    padding: 30px 50px;
+    padding: 40px 50px !important;
+    border-radius: 16px;
 }
 
 footer {
-    padding: 50px;
+    padding: 40px 40px;
     background-color: black;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footermainspan {
     display: inline-block;
     font-size: 50px;
     font-weight: bold;
-    /* padding-left: 80px; */
 }
 
-/* .footerdataterm{
-    padding-left: 80px;
-} */
+.footerbrandspan,
+.footerlogspan {
+    display: inline-block;
+    color: rgb(13, 186, 255);
+}
+
+
 .footerul li {
     list-style: none;
     margin-bottom: 10px;
+    color: #bdbdbd;
 }
 
 .footerul li:first-child {
     margin-bottom: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
+
+.footerul li:last-child {
+    padding-bottom: 28px;
+}
+
 
 .footerbottumul li {
     list-style: none;
@@ -232,6 +301,7 @@ footer {
     margin-right: 20px;
     font-size: 20px;
 }
+
 
 .footerbottumul {
     text-align: right;
@@ -243,102 +313,87 @@ footer {
     padding: 25px 10px;
 }
 
-@media screen and (max-width: 400px) {
-    .titledefinition {
-        width: 100%;
-    }
-
-    .whitepaperbtn {
-        padding: 10px 50px !important;
-    }
-
-    .section1row2 {
-        padding-top: 50px;
-        padding-right: unset;
-        padding-left: unset;
-        width: 100%;
-        padding-bottom: unset;
-    }
-
-    .section2image {
-        width: 100%;
-    }
-
-    .section2titlediv {
-        margin-top: 20px;
-    }
-
-    .section3title {
-        margin-top: unset;
-    }
-
-    .section3 {
-        padding-top: unset;
-    }
-
-    .section3btn {
-        padding-left: 14px !important;
-        padding-right: 14px !important;
-    }
-
-    .section3 {
-        padding-bottom: unset;
-    }
-
-    .section4row2title {
-        margin-top: unset;
-    }
-
-    .section5 {
-        padding-top: unset;
-    }
-
-    .section6title {
-        width: 100%;
-    }
-
-    .section6row {
-        padding-left: unset;
-        padding-right: unset;
-    }
-
-    .section6btn{
-        margin-left: unset;
-        margin-top: unset;
-        margin-top: 20px;
-    }
-    .section3 {
+@media screen and (max-width:400px) {
+    header {
         padding: unset;
-        padding: 20px;
+        text-align: center;
     }
 
-    .section4 {
-        padding: unset;
-        padding: 20px;
-    }
-
-    .section2 {
-        padding: unset;
-        padding: 20px;
+    .navbar-toggler {
+        border: none !important;
+        background-color: #636363 !important;
     }
 
     .section1 {
         padding: unset;
-        padding: 20px;
+        padding: 15px;
     }
 
-    .section6 {
+    .titledefinition {
+
+        width: 100%;
+    }
+
+    .section1row2 {
+        padding: unset;
+    }
+
+    .section1robotimage {
+        margin-bottom: 20px;
+    }
+
+    .section2titlediv {
+        margin-top: 0;
+    }
+
+    .section2 {
+        padding-bottom: unset;
+    }
+
+    .section3title {
+        margin-top: 10px;
+    }
+
+    .section3 {
         padding: unset;
         padding: 20px;
     }
 
-    footer{
-        padding: unset;
-        padding: 20px;
+    .section4row2title {
+        margin-top: 0;
     }
 
-    header{
-        padding: unset;
-        padding: 20px;
+    .section4 {
+        padding-bottom: unset;
+    }
+
+    .section5 {
+        padding-bottom: unset;
+    }
+
+    .section6row {
+        padding: 20px !important;
+    }
+
+    .section6btn {
+        margin-left: 0 !important;
+        margin-top: 20px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .section6row {
+        padding: unset !important;
+    }
+
+    .footercopyright {
+        text-align: center;
+    }
+
+    .footerbottumul {
+        text-align: center;
+    }
+
+    .footerdataterm {
+        margin-bottom: 20px;
     }
 }
