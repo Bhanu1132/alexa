@@ -406,3 +406,10 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+@media screen and (min-width:600px)
+{
+    .section4row2title{
+        text-align:left;
+    }
+}
